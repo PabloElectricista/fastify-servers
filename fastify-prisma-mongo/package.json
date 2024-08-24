@@ -1,0 +1,23 @@
+{
+  "name": "basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "prisma": "^5.18.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.18.0",
+    "nodemon": "^3.1.4"
+  }
+}
